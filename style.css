@@ -18,9 +18,14 @@ header {
    margin-top: 10px;
    width: 100%;
    margin-right: 40px;
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #505050;
+    font-size: 12px;
 }
 .top-bar > span {
   margin-right: 10px;
+  margin-top: 4px;
 }
 
 
@@ -28,11 +33,12 @@ header {
    font-size: 15px;
    font-weight: bold;
    color: white;
-   padding: 0 6px;
-   border: 10px solid #167AC6;
+   padding: 0 20px;
+   border: 8px solid #167AC6;
    border-radius: 3px;
    background-color: #167AC6;
    display: flex;
+   box-shadow: grey solid;
 }
 
 .blue-words {
@@ -53,8 +59,10 @@ main {
    margin-bottom: 15px;
 }
 
-.logo-btns > div {
-  
+
+.logo > img {
+width: 168px;
+margin-bottom: -15px;
 }
 .letters > img {
    vertical-align: top;
@@ -117,6 +125,7 @@ main {
 form {
    display: inline-flex;
    flex-direction: column;
+   width: 100%;
 }
 form > label {
    font-size: 14px;
@@ -129,14 +138,13 @@ form > input {
    border: 1px solid grey;
    margin-top: 8px;
 }
-
 form > p {
    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
    padding: 5px 0;
    font-size: 10px;
    color: #444;
-   width: 100%;
 }
+
 
 .form-fields {
    margin-top: 30px;
@@ -203,7 +211,7 @@ aside {
    padding: 30px;
 }
 
-aside > a {
+aside > span {
    display: inline-block;
    font-size: 12px;
    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
