@@ -10,15 +10,16 @@ body {
 .top-bar {
    display: flex;
    justify-content: flex-end;
-
+   float: right;
+   margin-top: 10px;
 }
 .top-bar > span {
   
-
+margin-right: 10px;
 }
 
 
-#blue-box {
+.blue-box {
    font-size: 10px;
    font-weight: bold;
    color: white;
@@ -26,7 +27,11 @@ body {
    border: 10px solid #167AC6;
    border-radius: 3px;
    background-color: #167AC6;
-   margin: 1px 0 0 150px;
+   margin-right: 40px;
+}
+
+.blue-words {
+   color: #167AC6;
 }
 main {
    width: 500px;
@@ -38,11 +43,26 @@ main {
 .logo-btns {
    text-align: center;
    justify-self: center;
+   display: block;
+}
+
+.colours {
+   display: inline-flex;
+   border: none;
+   padding: 0px;
+   margin: 0px;
+}
+
+.letters {
+   display: inline-flex;
+   border: none;
+   padding: 3px;
+   margin: 5px;
 }
 
 .form {
    border: 1px solid grey;
    background-color: white;
    height: 700px;
-
+   justify-content: center;
 }
