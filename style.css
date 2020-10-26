@@ -20,8 +20,7 @@ header {
    margin-right: 40px;
 }
 .top-bar > span {
-  
-margin-right: 10px;
+  margin-right: 10px;
 }
 
 
@@ -85,9 +84,10 @@ main {
 .form {
    border: 1px solid #c7c7c7;
    background-color: white;
-   height: 676px;
+   height: 624px;
    justify-content: center;
    padding: 30px;
+   border-bottom: none;
 }
 
 .header-form {
@@ -130,7 +130,13 @@ form > input {
    margin-top: 8px;
 }
 
-
+form > p {
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+   padding: 5px 0;
+   font-size: 10px;
+   color: #444;
+   width: 100%;
+}
 
 .form-fields {
    margin-top: 30px;
@@ -146,6 +152,7 @@ form > input {
    font-style: italic;
    color: #757575;
    text-align: center;
+   padding: 10px;
 }
 
 .create-btn {
@@ -160,6 +167,7 @@ form > input {
    border-radius: 5px;
    background-color: #167AC6;
    justify-content: center;
+   padding: 4px 12px;
 }
 
 .create-btn > a {
@@ -169,11 +177,42 @@ form > input {
    justify-content: center;
    
 }
+
+footer {
+   width: 380px;
+   display: block;
+   justify-self: center;
+   margin: auto;
+   background: #eceef1;
+   border: 1px solid #c7c7c7;
+   border-top: none;
+   padding: 15px;
+   font-size: 10px;
+   justify-content: center;
+   color: #8d9096
+}
+
+.footer {
+   display: flex;
+}
+
 aside {
    display: flex;
    text-align: center;
    flex-direction: column;
+   padding: 30px;
 }
+
 aside > a {
    display: inline-block;
+   font-size: 12px;
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+}
+
+aside > p {
+   display: flex;
+   width: 700px;
+   color: #505050;
+   font-size: 12px;
+   margin: auto;
 }
