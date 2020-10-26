@@ -5,13 +5,18 @@
 }
 body {
    background-color: #eeeeee;
+   font-family: sans-serif;
 
+}
+header {
+   display: block;
 }
 .top-bar {
    display: flex;
    justify-content: flex-end;
    float: right;
    margin-top: 10px;
+   width: 100%;
 }
 .top-bar > span {
   
@@ -32,25 +37,33 @@ margin-right: 10px;
 
 .blue-words {
    color: #167AC6;
+   font-weight: 400;
 }
 main {
-   width: 500px;
-   display: block
+   width: 380px;
+   display: block;
    justify-self: center;
    margin: auto;
 }
+
 
 .logo-btns {
    text-align: center;
    justify-self: center;
    display: block;
+   margin-bottom: 15px;
 }
-
+.logo-btns > div {
+  
+}
 .colours {
    display: inline-flex;
    border: none;
    padding: 0px;
    margin: 0px;
+}
+.colours > img {
+   height: 24px;
 }
 
 .letters {
@@ -59,10 +72,37 @@ main {
    padding: 3px;
    margin: 5px;
 }
+.letters {
+   height: 20px;
+}
 
 .form {
    border: 1px solid grey;
    background-color: white;
-   height: 700px;
+   height: 660px;
    justify-content: center;
+   padding: 30px;
+}
+.header-form {
+   text-align: center;
+}
+.header-form > h2 {
+   color: #4C4C4C;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header-form > h3{
+   color: #4C4C4C;
+   font-size: 14px;
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header-form > a {
+   font-size: 12px;
+}
+form {
+   display: inline-flex;
+   flex-direction: column;
+   
 }
