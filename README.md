@@ -43,4 +43,4 @@ To Microverse, the stand-up team, and mentor
 
 ## 📝 License
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/alexisbec/Mints-Form/blob/feature/MIT%20License.txt) licensed.
