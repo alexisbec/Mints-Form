@@ -1,0 +1,48 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body {
+   background-color: #eeeeee;
+
+}
+.top-bar {
+   display: flex;
+   justify-content: flex-end;
+
+}
+.top-bar > span {
+  
+
+}
+
+
+#blue-box {
+   font-size: 10px;
+   font-weight: bold;
+   color: white;
+   padding: 0 6px;
+   border: 10px solid #167AC6;
+   border-radius: 3px;
+   background-color: #167AC6;
+   margin: 1px 0 0 150px;
+}
+main {
+   width: 500px;
+   display: block
+   justify-self: center;
+   margin: auto;
+}
+
+.logo-btns {
+   text-align: center;
+   justify-self: center;
+}
+
+.form {
+   border: 1px solid grey;
+   background-color: white;
+   height: 700px;
+
+}
