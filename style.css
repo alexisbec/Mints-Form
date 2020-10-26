@@ -17,6 +17,7 @@ header {
    float: right;
    margin-top: 10px;
    width: 100%;
+   margin-right: 40px;
 }
 .top-bar > span {
   
@@ -25,14 +26,13 @@ margin-right: 10px;
 
 
 .blue-box {
-   font-size: 10px;
+   font-size: 15px;
    font-weight: bold;
    color: white;
    padding: 0 6px;
    border: 10px solid #167AC6;
    border-radius: 3px;
    background-color: #167AC6;
-   margin-right: 40px;
 }
 
 .blue-words {
@@ -46,22 +46,24 @@ main {
    margin: auto;
 }
 
-
 .logo-btns {
    text-align: center;
    justify-self: center;
    display: block;
    margin-bottom: 15px;
 }
+
 .logo-btns > div {
   
 }
+
 .colours {
    display: inline-flex;
    border: none;
    padding: 0px;
    margin: 0px;
 }
+
 .colours > img {
    height: 24px;
 }
@@ -72,6 +74,7 @@ main {
    padding: 3px;
    margin: 5px;
 }
+
 .letters {
    height: 20px;
 }
@@ -83,9 +86,11 @@ main {
    justify-content: center;
    padding: 30px;
 }
+
 .header-form {
    text-align: center;
 }
+
 .header-form > h2 {
    color: #4C4C4C;
     font-weight: 400;
@@ -93,16 +98,49 @@ main {
     font-size: 24px;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .header-form > h3{
    color: #4C4C4C;
+   padding: 20px 0px 0px;
    font-size: 14px;
    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .header-form > a {
    font-size: 12px;
 }
+
 form {
    display: inline-flex;
    flex-direction: column;
    
+}
+
+#email {
+   padding: 0px 0px 6px;
+}
+
+#phone {
+   padding: 0px 0px 6px;
+}
+
+#password {
+   padding: 0px 0px 6px;
+}
+
+.form-fields {
+   margin-top: 30px;
+   margin-bottom: 5px;
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#terms {
+   display: flex;
+   flex-direction: column;
+   margin: 30px;
+}
+
+#create-btn {
+   justify-self: center;
+   margin: 30px;
 }

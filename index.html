@@ -9,10 +9,10 @@
 <body>
 <header>
     <div class="top-bar">
-    <span>Already have an Intuit account? <br>
-    <a class="blue-words">I forgot my User ID or Password</a> </span>
-    <a class="blue-box">Sign In</a>
-</div>
+        <span>Already have an Intuit account? <br>
+        <a class="blue-words">I forgot my User ID or Password</a> </span>
+        <a class="blue-box">Sign In</a>
+    </div>
 
 </header>
 
@@ -53,17 +53,22 @@
         <a class="blue-words">Learn more</a>
     </header>
         <form>
-            <label for="email">Email Address</label>
+            <label class="form-fields" for="email">Email address</label>
             <input type="text" id="email">
-            <label for="phone">Phone (recommended)</label>
+            <label class="form-fields" for="phone">Phone (recommended)</label>
             <input type="text" id="phone">
             <p>Standard call, messaging or data rates may apply.</p>
-            <label for="password">Password</label>
+            <label class="form-fields" for="password">Password</label>
             <input type="text" id="password">
         </form>
-        <i>By clicking Create account, you agree to our<a class="blue-words"> Terms </a>and have read and acknowledge our
-        <a class="blue-words"> Privacy Statement.</a></i>
-        <a class="blue-box">Create Account</a>
+        <div id="create-btn">
+            <a class="blue-box">Create Account</a>
+        </div>
+        <div id="terms">
+            <i>By clicking Create account, you agree to our
+                <a class="blue-words"> Terms </a>and have read and acknowledge our
+                <a class="blue-words"> Privacy Statement.</a></i>
+        </div>
     </section>
 </main>
 <footer>
