@@ -1,0 +1,248 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body {
+   background-color: #eeeeee;
+   font-family: sans-serif;
+
+}
+header {
+   display: block;
+}
+.top-bar {
+   display: flex;
+   justify-content: flex-end;
+   float: right;
+   margin-top: 10px;
+   width: 100%;
+   margin-right: 40px;
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #505050;
+    font-size: 12px;
+}
+.top-bar > span {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+
+.blue-box {
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   padding: 0 20px;
+   border: 8px solid #167AC6;
+   border-radius: 3px;
+   background-color: #167AC6;
+   display: flex;
+   cursor: pointer;
+}
+
+.blue-words {
+   color: #167AC6;
+   font-weight: 400;
+   cursor: pointer;
+}
+main {
+   width: 380px;
+   display: block;
+   justify-self: center;
+   margin: auto;
+}
+
+.logo-btns {
+   text-align: center;
+   justify-self: center;
+   display: block;
+   margin-bottom: 15px;
+}
+.logo-btns > div {
+   align-items: center;
+   display: inline-flex;
+
+}
+.letters-quick {
+   margin: 0px 7px -7px 7px;
+}
+
+
+.logo > img {
+width: 168px;
+margin-bottom: -15px;
+cursor: pointer;
+
+}
+.colours {
+   display: inline-flex;
+   border: none;
+   padding: 0px;
+   margin: 0px;
+   cursor: pointer;
+}
+
+.colours > img {
+   height: 24px;
+}
+.mint {
+   margin: 0px 9px -8px 9px;
+   border: none;
+   cursor: pointer;
+ }
+.letters {
+   display: inline-flex;
+   border: none;
+   padding: 3px;
+   margin: 5px;
+   height: 20px;
+}
+.letters > img {
+   cursor: pointer;
+}
+
+.form {
+   border: 1px solid #c7c7c7;
+   background-color: white;
+   height: 624px;
+   justify-content: center;
+   padding: 30px;
+   border-bottom: none;
+}
+
+.header-form {
+   text-align: center;
+}
+
+.header-form > h2 {
+   color: #4C4C4C;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px 0px 15px 0px;
+}
+
+.header-form > h3{
+   color: #4C4C4C;
+   font-size: 14px;
+   font-weight: 500;
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header-form > h3 > a {
+   font-size: 12px;
+   cursor: pointer;
+}
+
+
+form {
+   display: inline-flex;
+   flex-direction: column;
+   width: 100%;
+}
+form > label {
+   font-size: 14px;
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: 400;
+}
+
+form > input {
+   padding: 0px 0px 6px;
+   border: 1px solid grey;
+   margin-top: 8px;
+   height: 33px;
+   border-radius: 3px;
+}
+form > p {
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+   padding: 5px 0;
+   font-size: 10px;
+   color: #444;
+}
+
+
+.form-fields {
+   margin-top: 30px;
+   margin-bottom: 5px;
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.terms {
+   display: flex;
+   flex-direction: column;
+   margin: 30px;
+   font-size: 12px;
+   font-style: italic;
+   color: #757575;
+   text-align: center;
+   padding: 10px;
+}
+.terms > i > a {
+   cursor: pointer;
+}
+
+.create-btn {
+   display: flex;
+   justify-content: center;
+   margin: 30px 0px 30px 0px;
+}
+.create-btn > button {
+   display: flex;
+   width: 100%;
+   border: 1px solid grey;
+   border-radius: 5px;
+   background-color: #167AC6;
+   justify-content: center;
+   padding: 6px 12px;
+   text-align: center;
+   height: 44px;
+   vertical-align: middle;
+   font-size: 18px;
+}
+
+footer {
+   width: 380px;
+   display: block;
+   justify-self: center;
+   margin: auto;
+   background: #eceef1;
+   border: 1px solid #c7c7c7;
+   border-top: none;
+   padding: 15px;
+   font-size: 10px;
+   justify-content: center;
+   color: #8d9096
+}
+
+.footer {
+   display: flex;
+}
+
+aside {
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   padding: 30px;
+}
+
+aside > span {
+   display: inline-block;
+   font-size: 12px;
+   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+  
+}
+aside > span > a {
+   cursor: pointer;
+}
+
+aside > p {
+   display: flex;
+   width: 700px;
+   color: #505050;
+   font-size: 12px;
+   margin: auto;
+}
+
+
