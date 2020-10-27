@@ -1,3 +1,5 @@
+![Screenshot](https://github.com/alexisbec/Mints-Form/blob/feature/icons/Screenshot.png)
+
 # Mints-Form
 
 This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
