@@ -39,11 +39,13 @@ header {
    background-color: #167AC6;
    display: flex;
    box-shadow: grey solid;
+   cursor: pointer;
 }
 
 .blue-words {
    color: #167AC6;
    font-weight: 400;
+   cursor: pointer;
 }
 main {
    width: 380px;
@@ -58,35 +60,44 @@ main {
    display: block;
    margin-bottom: 15px;
 }
+.logo-btns > div {
+   align-items: center;
+   display: inline-flex;
+
+}
 
 
 .logo > img {
 width: 168px;
 margin-bottom: -15px;
-}
-.letters > img {
-   vertical-align: top;
+cursor: pointer;
+
 }
 .colours {
    display: inline-flex;
    border: none;
    padding: 0px;
    margin: 0px;
+   cursor: pointer;
 }
 
 .colours > img {
    height: 24px;
 }
-
+.mint {
+   margin: 0px 9px -8px 9px;
+   border: none;
+   cursor: pointer;
+ }
 .letters {
    display: inline-flex;
    border: none;
    padding: 3px;
    margin: 5px;
-}
-
-.letters {
    height: 20px;
+}
+.letters > img {
+   cursor: pointer;
 }
 
 .form {
@@ -120,6 +131,8 @@ margin-bottom: -15px;
 
 .header-form > a {
    font-size: 12px;
+   cursor: pointer;
+   t
 }
 
 form {
@@ -137,6 +150,8 @@ form > input {
    padding: 0px 0px 6px;
    border: 1px solid grey;
    margin-top: 8px;
+   height: 33px;
+   border-radius: 3px;
 }
 form > p {
    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
@@ -161,6 +176,9 @@ form > p {
    color: #757575;
    text-align: center;
    padding: 10px;
+}
+.terms > i > a {
+   cursor: pointer;
 }
 
 .create-btn {
@@ -215,6 +233,10 @@ aside > span {
    display: inline-block;
    font-size: 12px;
    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+  
+}
+aside > span > a {
+   cursor: pointer;
 }
 
 aside > p {
@@ -224,3 +246,5 @@ aside > p {
    font-size: 12px;
    margin: auto;
 }
+
+
