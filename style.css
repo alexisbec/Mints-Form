@@ -64,6 +64,9 @@ main {
    display: inline-flex;
 
 }
+.letters-quick {
+   margin: 0px 7px -7px 7px;
+}
 
 
 .logo > img {
@@ -128,10 +131,11 @@ cursor: pointer;
    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.header-form > a {
+.header-form > h3 > a {
    font-size: 12px;
    cursor: pointer;
 }
+
 
 form {
    display: inline-flex;
@@ -191,7 +195,7 @@ form > p {
    border-radius: 5px;
    background-color: #167AC6;
    justify-content: center;
-   padding: 11px 12px;
+   padding: 6px 12px;
    text-align: center;
    height: 44px;
    vertical-align: middle;
