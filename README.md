@@ -6,7 +6,7 @@ This project consists of building an HTML document that matches the appearance o
 
 ## Description of the Project
 
-We design the Youtube page from scratch, making it look identical to the original without copying any of the code from it. For that we've used HTML and CSS languages, the former to layout the structure, distribution, size and shape of several sections of the page, and the other to give to them the colors, fonts and overall style that characterizes the platform. For better precision at these tasks and the readability of the code, we've implemented proper semantic elements, used attributes such as flex for positioning, reset the default values of elements such as body, applied values in general with the universal selector, used features like inheritance, specificity, and so forth. We've also went back and forth using the collaborative pair programming method analog to the pilot co-pilot duo, and added a property right's license to it.
+We design a sign up page from scratch, making it look identical to a pre-existing page without copying its code. For that we've used semantic elements on the structure, and the flex attribute on the position styling, submit forms that accept different types of values such as numbers for phone numbers, encrypted values to hide passwords, and so on. Aside from that was pretty much alike our previous project where we make an identical replica of an old youtube page.
 
 ## Built With
 
